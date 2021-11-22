@@ -1,0 +1,91 @@
+/*navbar start*/
+
+.link,
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.link:hover,
+a.nav-item.nav-link:hover {
+    color: #3fd999 !important;
+    transition: 0.5s;
+}
+
+.linkDropdown {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.abtn {
+    border: 3px solid #3fd999 !important;
+    border-radius: 30px !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #3fd999 !important;
+    padding: 10px 35px 10px 35px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+a.abtn:hover {
+    background: #000;
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+.abtn2 {
+    border: 3px solid #2c2c2c !important;
+    border-radius: 30px !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white !important;
+    padding: 10px 68px 10px 68px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none !important;
+    background: #2c2c2c;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#navbarSupportedContent>ul>li.nav-item.dropdown>ul>li>a {
+    color: white !important;
+    background: black;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 15px !important;
+    padding: 10px;
+    text-align: right !important;
+}
+
+#navbarSupportedContent>ul>li.nav-item.dropdown>ul>li:nth-child(1)>a {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    padding: 0px !important;
+    border-radius: 5px;
+}
+
+#navbarSupportedContent>ul>li.nav-item.dropdown>ul {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px !important;
+    background: black;
+}
+
+
+/*navbar end*/
